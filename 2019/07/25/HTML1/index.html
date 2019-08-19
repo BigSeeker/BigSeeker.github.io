@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+  <title>HTML1 | 留白</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <meta name="keywords" content="Rain,Rain's Blog">
+  
+  <meta name="description" content="学习目标 理解     HTML的概念 HTML标签的分类 HTML标签的关系 HTML标签的语义化   应用  HTML 的骨架格式 sublime基本使用    1.初识HTML HTML指的是超文本标记语言（Hyper Text Markup Language）是用来描述网页的一种语言。 HTML不是一种编程语言，而是一种标记语言（markup language） 标记语言是一套标记标签（m">
+<meta name="keywords" content="--笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HTML1">
+<meta property="og:url" content="https://github.com/BigSeeker/BigSeeker.github.io/2019/07/25/HTML1/index.html">
+<meta property="og:site_name" content="留白">
+<meta property="og:description" content="学习目标 理解     HTML的概念 HTML标签的分类 HTML标签的关系 HTML标签的语义化   应用  HTML 的骨架格式 sublime基本使用    1.初识HTML HTML指的是超文本标记语言（Hyper Text Markup Language）是用来描述网页的一种语言。 HTML不是一种编程语言，而是一种标记语言（markup language） 标记语言是一套标记标签（m">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-08-15T02:19:19.348Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="HTML1">
+<meta name="twitter:description" content="学习目标 理解     HTML的概念 HTML标签的分类 HTML标签的关系 HTML标签的语义化   应用  HTML 的骨架格式 sublime基本使用    1.初识HTML HTML指的是超文本标记语言（Hyper Text Markup Language）是用来描述网页的一种语言。 HTML不是一种编程语言，而是一种标记语言（markup language） 标记语言是一套标记标签（m">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/pace.min.js"></script>
+  
+
+  
+  
+
+</head>
+</html>
+<body>
+  <div id="container">
+      <header id="header">
+    <div id="banner"></div>
+    <div id="header-outer">
+        <div id="header-menu" class="header-menu-pos animated">
+            <div class="header-menu-container">
+                <a href="/" class="left">
+                    <span class="site-title">Rain&#39;s Blog</span>
+                </a>
+                <nav id="header-menu-nav" class="right">
+                    
+                    <a  href="/">
+                        <i class="fa fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    
+                    <a  href="/archives">
+                        <i class="fa fa-archive"></i>
+                        <span>Archives</span>
+                    </a>
+                    
+                    <a  href="/about">
+                        <i class="fa fa-user"></i>
+                        <span>About</span>
+                    </a>
+                    
+                </nav>
+                <a class="mobile-header-menu-button">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div id="header-row">
+            <div id="logo">
+                <a href="/">
+                    <img src="/images/4.jpg" alt="logo">
+                </a>
+            </div>
+            <div class="header-info">
+                <div id="header-title">
+                    
+                    <h2>
+                        Rain&#39;s Blog
+                    </h2>
+                    
+                </div>
+                <div id="header-description">
+                    
+                    <h3>
+                        From zero to hero
+                    </h3>
+                    
+                </div>
+            </div>
+            <nav class="header-nav">
+                <div class="social">
+                    
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+      <div class="outer">
+        <section id="main" class="body-wrap"><article id="post-HTML1" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="post-title" itemprop="name">
+      HTML1
+    </h1>
+    <div class="post-title-bar">
+      <ul>
+          
+        <li>
+          <i class="fa fa-calendar"></i>  2019-07-25
+        </li>
+        <li>
+          <i class="fa fa-eye"></i>
+          <span id="busuanzi_value_page_pv"></span>
+        </li>
+      </ul>
+    </div>
+  
+
+          
+      </header>
+    
+    <div class="article-entry post-content" itemprop="articleBody">
+      
+            
+            <h3 id="学习目标"><a href="#学习目标" class="headerlink" title="学习目标"></a>学习目标</h3><ul>
+<li><p>理解   </p>
+<ul>
+<li>HTML的概念</li>
+<li>HTML标签的分类</li>
+<li>HTML标签的关系</li>
+<li>HTML标签的语义化</li>
+</ul>
+</li>
+<li><p>应用</p>
+<ul>
+<li>HTML 的骨架格式</li>
+<li>sublime基本使用</li>
+</ul>
+</li>
+</ul>
+<h1 id="1-初识HTML"><a href="#1-初识HTML" class="headerlink" title="1.初识HTML"></a>1.初识HTML</h1><ul>
+<li>HTML指的是超文本标记语言（<strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage）是用来描述网页的一种语言。</li>
+<li>HTML不是一种编程语言，而是一种标记语言（markup language）</li>
+<li>标记语言是一套标记标签（markup tag）</li>
+</ul>
+<p><strong>HTML的作用：</strong></p>
+<blockquote>
+<p>网页是由网页元素组成的，这些元素是利用html标签描述出来，然后通过浏览器解析，就可以显示给用户了。</p>
+</blockquote>
+<p><strong>所谓超文本，有两层含义</strong></p>
+<ol>
+<li>因为它可以加入图片、声音、动画、多媒体等内容（<strong>超文本限制</strong>）</li>
+<li>不仅如此，它还可以从一个文件跳转到另一个文件，与世界各地主机的文件连接（<strong>超链接文本</strong>）。</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src= &quot;timg.jpg&quot;/&gt;</span><br></pre></td></tr></table></figure>
+
+<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><ul>
+<li>html是超文本标记（标签）语言</li>
+<li>我们学习html主要学习html标签</li>
+<li>我们用html标签描述网页元素。比如图片标签、文字标签、链接标签等等</li>
+<li>标签有自己的语法规范，所有的html标签都是用<u>&lt;&gt;</u>表示的</li>
+<li><strong><u>H（很）T（甜）M（蜜）L（啦）是很快乐的事啊..哈哈哈哈……</u></strong></li>
+</ul>
+<h2 id="1-1HTML骨架标签"><a href="#1-1HTML骨架标签" class="headerlink" title="1.1HTML骨架标签"></a>1.1HTML骨架标签</h2><p>HTML有自己的语言语法骨架格式：(要遵循、要专业)务必非常流畅的默写下来！！！</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">        &lt;title&gt;&lt;/title&gt;</span><br><span class="line">    &lt;/head&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="html骨架标签总结"><a href="#html骨架标签总结" class="headerlink" title="html骨架标签总结"></a>html骨架标签总结</h3><table>
+<thead>
+<tr>
+<th>标签名</th>
+<th>定义</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&lt;html&gt;&lt;/html&gt;</td>
+<td>HTML标签</td>
+<td>页面中最大的标签，我们称为<strong>根标签</strong></td>
+</tr>
+<tr>
+<td>&lt;head&gt;&lt;/head&gt;</td>
+<td>文档的头部</td>
+<td>注意在head标签中我们没有必要设置的标签是title</td>
+</tr>
+<tr>
+<td>&lt;title&gt;&lt;/title&gt;</td>
+<td>文档的标题</td>
+<td>让页面拥有一个属于自己的网页标题</td>
+</tr>
+<tr>
+<td>&lt;body&gt;&lt;/body&gt;</td>
+<td>文档的主体</td>
+<td>元素包含文档的所有内容，页面内容  基本都放到body</td>
+</tr>
+</tbody></table>
+<p><strong>建议：</strong><u>HTML标签名、类名标签属性和大部分属性值统一用小写</u></p>
+<h2 id="1-2HTML元素标签分类"><a href="#1-2HTML元素标签分类" class="headerlink" title="1.2HTML元素标签分类"></a>1.2HTML元素标签分类</h2><p><strong>标签：</strong></p>
+<p>在HTML页面中，带有“&lt;&gt;”符号的元素被称为HTML标签，如上面提到的<html>、<head><meta name="generator" content="Hexo 3.9.0">、</head><body>都是HTML骨架结构标签。</body></html></p>
+<p><strong>分类：</strong></p>
+<ol>
+<li>常规元素（双标签）</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;标签名&gt;内容&lt;/标签名&gt;    比如&lt;body&gt;  我是文字   &lt;/body&gt;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>该语法中“&lt;标签名&gt;”表示该标签的作用开始，一般称为“开始标签(start tag)”, “&lt;/标签名&gt;”表示该标签的作用结束，一般称为“结束标签（end tag）”。</li>
+<li>和开始标签相比，结束标签只是在前面加了一个关闭符“/”。</li>
+<li>我们以后接触的基本都是双标签</li>
+</ul>
+<p>2.空元素（单标签）</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">标签名</span> /&gt;</span>  比如  <span class="tag">&lt;<span class="name">br</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>空元素用单标签来表示，简单点说，就是里面不需要包含内容，只有一个开始标签不需要关闭。</li>
+<li>这种单身狗标签非常少，没有多少，我们多记忆就好，哈哈</li>
+</ul>
+<h2 id="1-3HTML标签关系"><a href="#1-3HTML标签关系" class="headerlink" title="1.3HTML标签关系"></a>1.3HTML标签关系</h2><p>针对<strong>双标签</strong>的相互关系分为两种：请大家务必熟悉记住这种标签关系，因为后面我们标签嵌套特别多，很容易弄混他们的关系。</p>
+<ol>
+<li><p>嵌套关系</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>并列关系</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>倡议：</strong></p>
+<blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; 如果两个标签之间的关系是嵌套关系，子元素最好缩进一个tab键的身位（一个tab是4个空格）。如果是并列关系，最好上下对齐</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>可以这样说： html双标签 可以分为 有一种是  <strong>父子级</strong>  包含关系的标签   一种是  *<em>兄弟级 *</em> 并列关系的标签</p>
+</blockquote>
+</li>
+</ol>
+<h1 id="2-代码开发工具（书写代码）"><a href="#2-代码开发工具（书写代码）" class="headerlink" title="2.代码开发工具（书写代码）"></a>2.代码开发工具（书写代码）</h1><ul>
+<li><p>为了提高我们的开发效率</p>
+</li>
+<li><p>为了减少代码的出错我们不提倡用记事本开发，我们有更好的开发工具</p>
+<ul>
+<li>Dreamweaver</li>
+<li>SublimeText</li>
+<li>WebStorm</li>
+<li>HBuilder</li>
+<li>VScode</li>
+</ul>
+<p>sublime 有非常多的优点，非常轻量级，打开速度超快，后面还有更高的功能，后面再接触。</p>
+<p><strong>sublime生成html骨架小技巧</strong></p>
+<ul>
+<li>双击打开软件</li>
+<li>新建文件（ctrl+n）</li>
+<li>保存（ctrl+s）,保存为.html(注意 后缀名必须是.html)</li>
+<li>生成页面骨架代码结构<ul>
+<li>html:5  按下tab键或者</li>
+<li>!按下tab键</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="3-文档类型-lt-！DOCTYPE-gt"><a href="#3-文档类型-lt-！DOCTYPE-gt" class="headerlink" title="3.文档类型&lt;！DOCTYPE&gt;"></a>3.文档类型&lt;！DOCTYPE&gt;</h1><p><strong>用法：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>作用：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE&gt; 声明位于文档中的最前面的位置，处于&lt;html&gt;标签之前。此标签可告知浏览器文档使用哪种HTML或XHTML规范</span><br></pre></td></tr></table></figure>
+
+<p><strong>提示：</strong></p>
+<pre><code>&lt;!DOCTYPE html&gt;  就是告诉浏览器按照HTML5规范解析页面。</code></pre><p><strong>约定：</strong></p>
+<blockquote>
+<p>HTML文件必须加上DOCTYPE 声明，并统一使用HTML5的文档声明。</p>
+</blockquote>
+<h1 id="4-页面语言lang"><a href="#4-页面语言lang" class="headerlink" title="4.页面语言lang"></a>4.页面语言lang</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;html lang=&quot;en&quot;&gt;  指定html语言种类</span><br></pre></td></tr></table></figure>
+
+<p>最常见的2个：</p>
+<ol>
+<li><code>en</code>定义语言为英语</li>
+<li><code>zh-CN</code>定义语言为中文</li>
+</ol>
+<p><strong>约定：</strong></p>
+<blockquote>
+<p>考虑浏览器和操作系统的兼容性，目前仍然使用 `zh-CN` 属性值</p>
+</blockquote>
+<p><strong>拓展：</strong></p>
+<ul>
+<li>根据lang属性来设定不同语言的css样式，或者字体</li>
+<li>告诉搜索引擎做精确的识别</li>
+<li>让语法检查程序做语言识别</li>
+<li>帮助翻译工具做识别</li>
+</ul>
+<h1 id="5-字符集"><a href="#5-字符集" class="headerlink" title="5.字符集"></a>5.字符集</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta charset=&quot;UTF-8&quot; /&gt;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">字符集（Character set）是多个字符的集合</span><br><span class="line"></span><br><span class="line">计算机要准确的处理各种字符集文字，需要进行字符编码，以便计算机能够识别和存储各种文字。</span><br></pre></td></tr></table></figure>
+
+<p>utf-8是目前最常用的字符集编码方式，常用的字符集编码方式还有gbk和gb2312。</p>
+<ul>
+<li>gb2312 简单中文 包括6763个汉字</li>
+<li>BIG5   繁体中文  港澳台等用</li>
+<li>gbk包含全部中文字符  是GBK2312的扩展，加入对繁体字的支持，兼容GB2312</li>
+<li>UTF-8则基本包含全世界所有国家需要用到的字符</li>
+<li><strong>如果没有这句代码，可能会引起乱码的情况。</strong></li>
+</ul>
+<p><strong>提示：</strong></p>
+<blockquote>
+<p>这句代码是让html文件以UTF-8编码保存，浏览器根据编码去解码对应的html内容。</p>
+</blockquote>
+<h1 id="6-HTML标签的语义化"><a href="#6-HTML标签的语义化" class="headerlink" title="6.HTML标签的语义化"></a>6.HTML标签的语义化</h1><p>白话：所谓标签语义化，就是指标签的含义。</p>
+<ol>
+<li>方便代码的阅读和维护</li>
+<li>同时让浏览器或是网络爬虫可以很好地解析，从而更好的分析其中的内容</li>
+<li>使用语义化标签会具有更好的搜索引擎优化</li>
+</ol>
+<blockquote>
+<p>根据标签的语义，在合适的地方给一个最为合理的标签。</p>
+</blockquote>
+<p><strong>遵循的原则：</strong></p>
+<p>先确定语义的HTML，再选适合的CSS。所以，<strong>我们接下来学习html标签，要根据语义去记忆。</strong>HTML网页中任何元素的实现都要依靠HTML标签。</p>
+
+            <div class="post-copyright">
+    <div class="content">
+        <p>最后更新： 2019年08月15日 10:19</p>
+        <p>原始链接： <a class="post-url" href="/2019/07/25/HTML1/" title="HTML1">https://github.com/BigSeeker/BigSeeker.github.io/2019/07/25/HTML1/</a></p>
+        <footer>
+            <a href="https://github.com/BigSeeker/BigSeeker.github.io">
+                <img src="/images/4.jpg" alt="Lee">
+                Lee
+            </a>
+        </footer>
+    </div>
+</div>
+
+      
+        
+            
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;">赏</a>
+</div>
+
+<div id="reward" class="post-modal reward-lay">
+    <a class="close" href="javascript:;" id="reward-close">×</a>
+    <span class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        请我吃糖~
+        <i class="icon icon-quote-right"></i>
+    </span>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/images/wechat_code.jpg" alt="打赏二维码">
+        </div>
+        <div class="reward-select">
+            
+            <label class="reward-select-item checked" data-id="wechat" data-wechat="/images/wechat_code.jpg">
+                <img class="reward-select-item-wechat" src="/images/wechat.png" alt="微信">
+            </label>
+            
+            
+            <label class="reward-select-item" data-id="alipay" data-alipay="/images/alipay_code.jpg">
+                <img class="reward-select-item-alipay" src="/images/alipay.png" alt="支付宝">
+            </label>
+            
+        </div>
+    </div>
+</div>
+
+
+        
+    </div>
+    <footer class="article-footer">
+        
+        
+<div class="post-share">
+    <a href="javascript:;" id="share-sub" class="post-share-fab">
+        <i class="fa fa-share-alt"></i>
+    </a>
+    <div class="post-share-list" id="share-list">
+        <ul class="share-icons">
+          <li>
+            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://github.com/BigSeeker/BigSeeker.github.io/2019/07/25/HTML1/&title=《HTML1》 — 留白&pic=https://github.com/BigSeeker/BigSeeker.github.ioimages/4.jpg" data-title="微博">
+              <i class="fa fa-weibo"></i>
+            </a>
+          </li>
+          <li>
+            <a class="weixin share-sns" id="wxFab" href="javascript:;" data-title="微信">
+              <i class="fa fa-weixin"></i>
+            </a>
+          </li>
+          <li>
+            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://github.com/BigSeeker/BigSeeker.github.io/2019/07/25/HTML1/&title=《HTML1》 — 留白&source=From zero to hero" data-title="QQ">
+              <i class="fa fa-qq"></i>
+            </a>
+          </li>
+          <li>
+            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/BigSeeker/BigSeeker.github.io/2019/07/25/HTML1/" data-title="Facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《HTML1》 — 留白&url=https://github.com/BigSeeker/BigSeeker.github.io/2019/07/25/HTML1/&via=https://github.com/BigSeeker/BigSeeker.github.io" data-title="Twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://github.com/BigSeeker/BigSeeker.github.io/2019/07/25/HTML1/" data-title="Google+">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+     </div>
+</div>
+<div class="post-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;" id="wxShare-close">×</a>
+    <p>扫一扫，分享到微信</p>
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=https://github.com/BigSeeker/BigSeeker.github.io/2019/07/25/HTML1/" alt="微信分享二维码">
+</div>
+
+<div class="mask"></div>
+
+        
+        <ul class="article-footer-menu">
+            
+            
+  <li class="article-footer-tags">
+    <i class="fa fa-tags"></i>
+      
+    <a href="/tags/--笔记/" class="color5">--笔记</a>
+      
+  </li>
+
+        </ul>
+        
+    </footer>
+  </div>
+</article>
+
+
+    <aside class="post-toc-pos post-toc-top" id="post-toc">
+        <nav class="post-toc-wrap">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#学习目标"><span class="post-toc-text">学习目标</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#1-初识HTML"><span class="post-toc-text">1.初识HTML</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#总结"><span class="post-toc-text">总结</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-1HTML骨架标签"><span class="post-toc-text">1.1HTML骨架标签</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#html骨架标签总结"><span class="post-toc-text">html骨架标签总结</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-2HTML元素标签分类"><span class="post-toc-text">1.2HTML元素标签分类</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-3HTML标签关系"><span class="post-toc-text">1.3HTML标签关系</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#2-代码开发工具（书写代码）"><span class="post-toc-text">2.代码开发工具（书写代码）</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#3-文档类型-lt-！DOCTYPE-gt"><span class="post-toc-text">3.文档类型&lt;！DOCTYPE&gt;</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#4-页面语言lang"><span class="post-toc-text">4.页面语言lang</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#5-字符集"><span class="post-toc-text">5.字符集</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#6-HTML标签的语义化"><span class="post-toc-text">6.HTML标签的语义化</span></a>
+        </nav>
+    </aside>
+    
+
+<nav id="article-nav">
+  
+    <a href="/2019/07/29/HTML常用标签/" id="article-nav-newer" class="article-nav-link-wrap">
+
+      <span class="article-nav-title">
+        <i class="fa fa-hand-o-left" aria-hidden="true"></i>
+        
+          HTML常用标签
+        
+      </span>
+    </a>
+  
+  
+    <a href="/2019/07/25/web/" id="article-nav-older" class="article-nav-link-wrap">
+      <span class="article-nav-title">初识web</span>
+      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+    </a>
+  
+</nav>
+
+
+
+    
+</section>
+        
+      </div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+      <p>
+        Powered by  <a href="http://hexo.io/" target="_blank">Hexo</a>
+        Theme <a href="//github.com/wongminho/hexo-theme-miho" target="_blank">MiHo</a>
+      &copy; 2019 Lee<br>
+      </p>
+    </div>
+  </div>
+</footer>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  var mihoConfig = {
+      root: "https://github.com/BigSeeker/BigSeeker.github.io",
+      animate: true,
+      isHome: false,
+      share: true,
+      reward: 1
+  }
+</script>
+<div class="sidebar">
+    <div id="sidebar-search" title="Search">
+        <i class="fa fa-search"></i>
+    </div>
+    <div id="sidebar-category" title="Categories">
+        <i class="fa fa-book"></i>
+    </div>
+    <div id="sidebar-tag" title="Tags">
+        <i class="fa fa-tags"></i>
+    </div>
+    <div id="sidebar-top">
+        <span class="sidebar-top-icon"><i class="fa fa-angle-up"></i></span>
+    </div>
+</div>
+<div class="sidebar-menu-box" id="sidebar-menu-box">
+    <div class="sidebar-menu-box-container">
+        <div id="sidebar-menu-box-categories">
+            
+        </div>
+        <div id="sidebar-menu-box-tags">
+            <a href="/tags/笔记/" style="font-size: 10px;">-- 笔记</a> <a href="/tags/笔记/" style="font-size: 20px;">--笔记</a> <a href="/tags/笔记-总结/" style="font-size: 10px;">--笔记 --总结</a> <a href="/tags/笔记/" style="font-size: 10px;">-笔记</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+        </div>
+    </div>
+    <a href="javascript:;" class="sidebar-menu-box-close">&times;</a>
+</div>
+<div class="mobile-header-menu-nav" id="mobile-header-menu-nav">
+    <div class="mobile-header-menu-container">
+        <span class="title">Menus</span>
+        <ul class="mobile-header-menu-navbar">
+            
+            <li>
+                <a  href="/">
+                    <i class="fa fa-home"></i><span>Home</span>
+                </a>
+            </li>
+            
+            <li>
+                <a  href="/archives">
+                    <i class="fa fa-archive"></i><span>Archives</span>
+                </a>
+            </li>
+            
+            <li>
+                <a  href="/about">
+                    <i class="fa fa-user"></i><span>About</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="mobile-header-tag-container">
+        <span class="title">Tags</span>
+        <div id="mobile-header-container-tags">
+            <a href="/tags/笔记/" style="font-size: 10px;">-- 笔记</a> <a href="/tags/笔记/" style="font-size: 20px;">--笔记</a> <a href="/tags/笔记-总结/" style="font-size: 10px;">--笔记 --总结</a> <a href="/tags/笔记/" style="font-size: 10px;">-笔记</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+        </div>
+    </div>
+</div>
+<div class="search-wrap">
+    <span class="search-close">&times;</span>
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+            <i class="icon icon-lg icon-chevron-left"></i>
+        </a>
+        <input class="search-field" placeholder="Search..." id="keywords">
+        <a id="search-submit" href="javascript:;">
+            <i class="fa fa-search"></i>
+        </a>
+    <div class="search-container" id="search-container">
+        <ul class="search-result" id="search-result">
+        </ul>
+    </div>
+</div>
+
+<div id="search-tpl">
+    <li class="search-result-item">
+        <a href="{url}" class="search-item-li">
+            <span class="search-item-li-title" title="{title}">{title}</span>
+        </a>
+    </li>
+</div>
+<script src="/js/search.js"></script>
+<script src="/js/main.js"></script>
+
+
+  <script src="//cdn.bootcss.com/particles.js/2.0.0/particles.min.js"></script>
+  <div id="particles"></div>
+  <script src="/js/particles.js"></script>
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+  <script src="//cdn.bootcss.com/scrollReveal.js/3.0.5/scrollreveal.js"></script>
+  <script src="/js/animate.js"></script>
+
+
+  <script src="/js/pop-img.js"></script>
+  <script>
+     $(".article-entry p img").popImg();
+  </script>
+
+  </div>
+</body>
+</html>
